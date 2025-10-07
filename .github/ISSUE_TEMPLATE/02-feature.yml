@@ -1,0 +1,25 @@
+name: Feature Request
+description: A request, idea or new functionality
+type: Feature
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Summarize the feature
+    validations:
+      required: true
+  - type: textarea
+    id: useage
+    attributes:
+      label: Use Cases
+      description: List the use cases that this feature should satisfy
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Is there an existing feature for this?
+      description: Please search to see if an issue already exists for the feature desired.
+      options:
+        - label: I have searched the existing issues
+          required: true

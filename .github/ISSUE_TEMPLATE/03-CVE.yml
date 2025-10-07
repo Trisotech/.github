@@ -1,0 +1,66 @@
+name: CVE Report
+description: A request, idea or new functionality
+type: CVE
+body:
+  - type: input
+    id: cve_id
+    attributes:
+      label: CVE Identifier
+      description: CVE attributed ID
+      placeholder: <CVE-2025-XXXX>
+    validations:
+      required: true
+  - type: textarea
+    id: affected
+    attributes:
+      label: Affected Components
+      description: List the modules, packages, or areas in the project impacted by this vulnerability.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear description of the vulnerability, referencing the official CVE description if available.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: References
+      placeholder: |
+        * CVE Record: [link to National Vulnerability Database or MITRE page]
+        * Additional references: (e.g., advisories, blog posts)
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      placeholder: |
+        * Severity: (e.g., High, Medium, Low, Critical)
+        * What versions/releases are affected?
+        * Is there a known exploit or proof of concept?
+    validations:
+      required: true
+  - type: textarea
+    id: remediation
+    attributes:
+      label: Remediation & Mitigation
+      placeholder: |
+        If known:
+          * Is there an existing patch or upgrade?
+          * Suggested mitigation steps
+    validations:
+      required: false
+  - type: textarea
+    id: extra_context
+    attributes:
+      label: Additional Context
+      description: Any further information, details about discovery, or links to discussions.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value:  "> **Note:** For sensitive information or an unreported vulnerability, contact the project security team directly and avoid disclosing specifics here."
+
