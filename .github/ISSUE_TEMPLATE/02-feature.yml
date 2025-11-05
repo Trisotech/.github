@@ -15,11 +15,7 @@ body:
       label: Use Cases
       description: List the use cases that this feature should satisfy
     validations:
-      required: true
-  - type: checkboxes
+      required: false
+  - type: markdown
     attributes:
-      label: Is there an existing feature for this?
-      description: Please search to see if an issue already exists for the feature desired.
-      options:
-        - label: I have searched the existing issues
-          required: true
+      value: Please search to see if an issue already exists for the feature desired before submitting.
