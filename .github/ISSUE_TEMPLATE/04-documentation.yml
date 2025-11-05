@@ -47,3 +47,7 @@ body:
       options:
         - label: I have searched for related documentation issues and found none.
           required: true
+  
+  - type: markdown
+    attributes:
+      value: Please search to see if an issue already exists for the desired documentation before submitting.
