@@ -1,6 +1,7 @@
 name: CVE Report
 description: A request, idea or new functionality
 type: CVE
+title: CVE-XXXX-XXXX component
 body:
   - type: input
     id: cve_id
@@ -63,4 +64,6 @@ body:
   - type: markdown
     attributes:
       value:  "> **Note:** For sensitive information or an unreported vulnerability, contact the project security team directly and avoid disclosing specifics here."
-
+  - type: markdown
+    attributes:
+      value: Please search to see if an issue already exists for this CVE before submitting.

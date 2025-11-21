@@ -1,12 +1,21 @@
-## Change description
-
-(What was changed)
-
-
-## Checklist
+## Security
 
 - [ ] Security impact of change has been considered
-- [ ] Unit Tests
-- [ ] Commit message(s) contains a link to the issue (with the fixes keyword)
-- [ ] Only commit relevant to this Merge Request
+
+Security impacts considered
+- 
+- 
+
+## Documentation
+
+- [ ] User documentation provided (if applicable). 
+
+## Tests
+
+- [ ] Unit Tests provided (if applicable). 
+
+## Commits
+- [ ] Commit message(s) contains a link to the issue (with the fixes keyword if the issue needs to be closed)
+- [ ] Only contains commit relevant to this Pull Request
 - [ ] Changes (diff) validated
+
